@@ -5,11 +5,11 @@ asciidoc-attributes:
 ---
 {@io.quarkiverse.roq.frontmatter.runtime.model.DocumentPage page}
 
-<div class="max-w-7xl mx-auto px-2 sm:px-3 lg:px-4 py-12">
+<div class="post-page">
   <!-- Post Header (full width) -->
-  <header class="mb-8">
-    <h1 class="text-5xl font-bold mb-4 text-dark-text">{page.title}</h1>
-    <div class="text-gray-500 text-sm mb-8">
+  <header>
+    <h1>{page.title}</h1>
+    <div class="post-meta">
       <time datetime="{page.date}">{page.date.format('MM-dd-yyyy')}</time>
       {#if page.data.author??} • <span>{page.data.author}</span>{/if}
     </div>
@@ -20,7 +20,7 @@ asciidoc-attributes:
 
     <!-- Main Content Area -->
     <article class="post-content-area">
-      <div class="article-content prose dark:prose-invert">
+      <div class="article-content">
         {#insert /}
       </div>
 
@@ -46,15 +46,15 @@ asciidoc-attributes:
         {/if}
       </div>
 
-      <footer class="mt-16 pt-8 border-t border-gray-800">
-        <div class="flex justify-between">
+      <footer>
+        <div>
           {#if page.previous}
-          <a href="{page.previous.url}" class="text-gray-400 hover:text-dark-text transition-colors">
+          <a href="{page.previous.url}">
             ← {page.previous.title}
           </a>
           {/if}
           {#if page.next}
-          <a href="{page.next.url}" class="text-gray-400 hover:text-dark-text transition-colors">
+          <a href="{page.next.url}">
             {page.next.title} →
           </a>
           {/if}

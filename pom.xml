@@ -32,28 +32,23 @@
     <dependencies>
         <dependency>
             <groupId>io.quarkiverse.web-bundler</groupId>
-            <artifactId>quarkus-web-bundler</artifactId>
-            <version>999-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>io.quarkiverse.web-bundler</groupId>
             <artifactId>quarkus-web-bundler-tailwind-css</artifactId>
-            <version>999-SNAPSHOT</version>
+            <version>2.0.0.CR5</version>
         </dependency>
         <dependency>
             <groupId>io.quarkiverse.roq</groupId>
             <artifactId>quarkus-roq</artifactId>
-            <version>999-SNAPSHOT</version>
+            <version>2.0.0.BETA1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkiverse.roq</groupId>
             <artifactId>quarkus-roq-plugin-faker</artifactId>
-            <version>999-SNAPSHOT</version>
+            <version>2.0.0.BETA1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkiverse.roq</groupId>
             <artifactId>quarkus-roq-plugin-tagging</artifactId>
-            <version>999-SNAPSHOT</version>
+            <version>2.0.0.BETA1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>

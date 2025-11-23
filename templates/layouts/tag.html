@@ -1,21 +1,18 @@
 ---
-layout: default
+layout: page
 paginate: true
 tagging: posts
 ---
 
 {@io.quarkiverse.roq.frontmatter.runtime.model.NormalPage page}
 
-<article class="page-content-area">
-  <header>
-    <h1>{page.data.tag}</h1>
-  </header>
 
-  <div class="page-content">
-    {#for post in site.collections.get(page.data.tagCollection).paginated(page.paginator)}
-    {#postCard post site/}
-    {/for}
+<div class="posts-wrapper">
 
-    {#include partials/posts-paginator/}
-  </div>
-</article>
+{#for post in site.collections.get(page.data.tagCollection).paginated(page.paginator)}
+{#postCard post site/}
+{/for}
+
+</div>
+
+{#include partials/posts-paginator/}

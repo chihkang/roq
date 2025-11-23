@@ -1,3 +1,5 @@
+{@io.quarkiverse.roq.frontmatter.runtime.model.DocumentPage post}
+
 <article class="article-item">
   <time class="article-date" datetime="{post.date}">
     {post.date.format('MM-dd-yyyy')}
@@ -10,12 +12,15 @@
   {#if post.description??}
   <p class="article-description">{post.description.wordLimit(30)}</p>
   {/if}
-  {#if post.data.tags?? and post.data.tags.size > 0}
+  {#if post.data.tags??}
+  {#let tags = post.data.tags.asStrings}
+  {#if tags.size > 0}
   <div class="flex flex-wrap gap-2 mt-3">
-    {#for tag in post.data.tags.asStrings}
+    {#for tag in tags}
     <a href="{site.url('/posts/tag/')}{tag.slugify}"
        class="article-tag">#{tag.slugify}</a>
     {/for}
   </div>
+  {/if}
   {/if}
 </article>
