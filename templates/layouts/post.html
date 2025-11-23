@@ -33,7 +33,7 @@ asciidoc-attributes:
           <span class="metadata-value">{page.date.format('MM-dd-yyyy')}</span>
         </div>
 
-        {#if page.data.tags}
+        {#if page.data.tags??}
         <div class="metadata-row">
           <span class="metadata-label">Tags</span>
           <div class="metadata-tags">

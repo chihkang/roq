@@ -49,10 +49,23 @@
         @apply min-h-screen bg-surface text-primary;
     }
     a:hover, button:hover { @apply text-accent-500 underline decoration-2 decoration-accent-500; }
+    /* Inline code in prose */
+    :where(.prose) code {
+        all: unset;
+        font-family: 'Fira Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875em;
+        background-color: var(--color-code-bg);
+        color: var(--color-code-text);
+        padding: 0 0.25rem;
+        border-radius: 0.25rem;
+        white-space: pre-wrap;
+    }
+
+
 }
 
 @layer components {
-
+    code::before, code::after { content: none; }
     /* Header & Footer */
     header.site-header { @apply max-w-5xl mx-auto px-6 py-6 md:py-8 border-b border-border; }
     header.site-header  .header-inner { @apply flex justify-between items-center; }
