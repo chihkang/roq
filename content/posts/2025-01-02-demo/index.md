@@ -151,7 +151,7 @@ Let's give it a ride:
     --color-accent-700: #c2410c;
 }
 ```
-👀 **›** _Slick right?_ (you also have a dark mode button in the site if you want to give it a shot
+👀 **›** _Slick right?_ (you also have a dark mode button in the site if you want to give it a shot)
 
 **Note:** The design is using TailwindCSS which is supported by Roq and Quarkus using the `quarkus-web-bundler-tailwind-css` extension.
 
