@@ -85,7 +85,7 @@ When Quarkus is started. yeah... well... after downloading a bunch of dependenci
 
 I suggest you put your browser on your second screen if you have one, this content is also available in your new [blog](http://localhost:8080/posts/discover-roq-the-quarkus-way-for-static-site-generation-in-java/) (or in `content/posts/2025-01-02-demo.md`)
 
-## Episode 1 - The Index Page and Live-Reload
+## 🚀 Episode 1 - The Index Page and Live-Reload
 
 Let's open `content/index.html` and have a look.
 
@@ -120,7 +120,7 @@ The `layout: default` is the template which will wrap this page content, they ar
 
 The content part is in html (because it a `.html` file), it is pretty straightforward. You can see how pagination on posts happens.
 
-## Episode 2 - Web-Bundling 🏄
+## 🏄 Episode 2 - Web-Bundling
 
 The Quarkus Web Bundler, takes the `web/` dir stuff and use the [mvnpm](https://mvnpm.org/) dependencies, to create a production ready "bundle" for your page. `\{#bundle /}` is included in the default layout and add the resulting script and style html tags.
 
@@ -165,7 +165,7 @@ alert('Hello Roq');
 If you have a look to the pom.xml, you'll see mvnpm deps for `hightlightjs` and the font `Atkinson Hyperlegible` used in the css (dependabot will take a good care of them).
 
 
-## Episode 3 - Writing Posts and Pages ⚡️
+## ⚡️ Episode 3 - Writing Posts and Pages
 
 To Create a new page:
 - Create a new file in `content/` with `.md` or `.html` extension.
@@ -186,7 +186,7 @@ Ok, let's have a bit of fun:
 
 This is faker data generation to help you with pagination and tagging (it's only enabled in dev mode thanks to `%dev`).
 
-## Episode 4 - Data 🏌🏻‍♀️
+## 🏌🏻‍♀️ Episode 4 - Data
 
 We already covered a lot, let's quickly cover the rest.
 
@@ -213,7 +213,7 @@ items:
 **Tip** You can also [map this data to a structure](https://docs.quarkiverse.io/quarkus-roq/dev/quarkus-roq-data.html) (class or record) for type-safety and making sure your data is meeting expectations.
 
 
-## Episode 5 - Templates: Layouts, Partials and Tags 🥱
+## 🥱 Episode 5 - Templates: Layouts, Partials and Tags
 
 This is a bit boring but important to know.
 
@@ -225,7 +225,7 @@ Partials (located in `templates/partials/`) let you reuse small HTML/Qute snippe
 
 Tags (located in `templates/tags/`) are small, self-contained components you can call from any template. They behave like mini-templates with parameters, useful for things like buttons, cards, or repeated UI fragments. You invoke them using Qute’s `\{#your-tag foo="bar"}` syntax, and they keep your templates much cleaner by replacing boilerplate HTML with a reusable tag definition.
 
-## Episode 6 - Themes 🔥
+## 🔥 Episode 6 - Themes
 
 If you create a [Roq app](https://code.quarkus.io/?a=roq-with-blog&e=io.quarkiverse.roq%3Aquarkus-roq) using Code Quarkus, you’ll notice that you get a fully styled, well-structured website without writing any template or CSS yourself. That’s because Roq allow to use themes, which provide all the building blocks: layouts, components, styles, scripts, and templates.
 
