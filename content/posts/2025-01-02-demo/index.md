@@ -113,7 +113,7 @@ paginate: posts
 
 👩🏻‍💻 **›** **Change the `title:` with your name**
 
-👀 **›** _Switch to the browser and see the change, it should update in 1 or 2s._
+👀 **›** _Switch to the browser and see the change, Live reload should be real quick._
 
 **Note**: Styles and script changes are way faster to be loaded, I am currently working on making the page changes way faster too.
 
