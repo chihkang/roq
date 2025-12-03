@@ -22,7 +22,7 @@
         </a>
         {/for}
         {#for social in site.data.social??}
-        <a href="{social.link}" target="_blank" rel="noopener noreferrer" aria-label="{social.name}" title="{social.name}">
+        <a href="{social.link}" class="nav-social" target="_blank" rel="noopener noreferrer" aria-label="{social.name}" title="{social.name}">
           <span class="icon icon-{social.icon}"></span>
           {#if device == 'mobile'}<span id="theme-text">{social.name}</span>{/if}
         </a>
