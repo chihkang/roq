@@ -184,6 +184,7 @@ To Create a new post:
 Ok, let's have a bit of fun:
 
 👩🏻‍💻 **›** **open `config/application.properties`, uncomment the line (remove the `#)` and go back to the "Blog" page.**
+
 👀 **›** _I didn't know you could write articles that fast 🚀_
 
 This is faker data generation to help you with pagination and tagging (it's only enabled in dev mode thanks to `%dev`).
