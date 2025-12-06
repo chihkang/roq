@@ -127,7 +127,7 @@ The Quarkus Web Bundler, takes the `web/` dir stuff and use the [mvnpm](https://
 
 Let's give it a ride:
 
-👩🏻‍💻 **›** **In the `web/styles`, change the `@theme { ... }` part by this:**
+👩🏻‍💻 **›** **In the `web/styles.css`, change the `@theme { ... }` part by this:**
 ```css
 @theme {
     --font-sans: 'Atkinson Hyperlegible', system-ui, -apple-system, sans-serif;
@@ -154,7 +154,7 @@ Let's give it a ride:
 ```
 👀 **›** _Slick right?_ (you also have a dark mode button in the site if you want to give it a shot)
 
-**Note:** The design is using TailwindCSS which is supported by Roq and Quarkus using the `quarkus-web-bundler-tailwind-css` extension.
+**Note:** The design is using TailwindCSS which is supported by Roq and Quarkus using the `quarkus-web-bundler-tailwindcss` extension.
 
 👩🏻‍💻 **›** **In `web/app.js`**, add this in the bottom:
 ```javascript
@@ -176,13 +176,14 @@ To Create a new page:
 To Create a new post:
 - Create a new file in `content/posts` with `.md` or `.html` extension.
 - 👀 It is already available in the blog!
-- Add a `title`, `description`, some `tags` and why not a bit of content (the path is based on a `slug` of the title by default).
+- Using a FrontMatter header (in yaml between `---`), add a `title`, `description`, some `tags` (the path is based on a `slug` of the title by default).
+- Feel free to also add content to your post.
 
 **TIP:** You can also create a directory with an `index` file instead if you want to access relative static files in your page or post.
 
 Ok, let's have a bit of fun:
 
-👩🏻‍💻 **›** **open `config.properties` and uncomment the line**
+👩🏻‍💻 **›** **open `config/application.properties`, uncomment the line (remove the `#)` and go back to the "Blog" page.**
 👀 **›** _I didn't know you could write articles that fast 🚀_
 
 This is faker data generation to help you with pagination and tagging (it's only enabled in dev mode thanks to `%dev`).
