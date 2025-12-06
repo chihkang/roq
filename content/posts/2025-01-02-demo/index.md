@@ -206,7 +206,7 @@ items:
     url: /about
 ```
 
-🏻‍💻 **›** **In `templates/partials/header.html` change this:**
+👩🏻‍💻 **›** **In `templates/partials/header.html` change this:**
 
 ```
 - {#for item in site.data.navigation}
@@ -225,7 +225,7 @@ Layouts let you share and reuse parts of the HTML around your content — header
 
 ![roq-layouts.png](roq-layouts.png)
 
-🏻‍💻 **›** **In `templates/layouts/default.html` replace the `{#insert /}` this in the `<main>` by this:**
+👩🏻‍💻 **›** **In `templates/layouts/default.html` replace the `{#insert /}` this in the `<main>` by this:**
 ```html
 <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">One template to rule them all 💍</h1>
 ```
