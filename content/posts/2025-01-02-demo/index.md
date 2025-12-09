@@ -9,7 +9,7 @@ escape: true
 
 ![roq-advent.png](./roq-advent.png)
 
-Just another Static Site Generator (SSG)? Honestly, yes — but Roq is a little different. It’s just a thin layer on Quarkus, which gives it a different kind of potential.
+Just another Static Site Generator (SSG)? Honestly, yes — but Roq is a little different. It’s a thin layer on Quarkus, which gives it a different kind of potential.
 
 I’ve spent time looking at other SSGs in the JavaScript ecosystem (Gatsby, Next.js, Nuxt) and in other languages (Hugo, Jekyll, JBake…). Roq borrows many of their popular features and conventions.
 
