@@ -8,13 +8,13 @@ escape: true
 ---
 現行更新股價的方式有點慢且笨，應該要優化一下
 
-# Batch update
+## Batch update
 
 從單筆變成一次發出全部的股票代號，針對這些進行更新。
 
 現行有五筆股票可能就要發查五次，這樣會變成一次節省4次
 
-# Stock price update mechanism
+## Stock price update mechanism
 
 ```mermaid
 sequenceDiagram
@@ -130,7 +130,7 @@ sequenceDiagram
 
 - **一次 5 檔也 OK**：快取是 per-symbol，會查 5 次，但可並行；DB 只查 misses 且一次 IN。
 
-# TTL
+## TTL
 
 **開盤期間（Batch會持續寫入 KV）**
 
@@ -210,7 +210,7 @@ sequenceDiagram
 
 
 
-# KV value schema
+## KV value schema
 
 ```json
 {
@@ -224,7 +224,7 @@ sequenceDiagram
 }
 ```
 
-# Further
+## Further
 
 似乎可以省略DB那一層，思考一下並計算流量限制
 
