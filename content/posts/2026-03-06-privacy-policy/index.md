@@ -4,7 +4,7 @@ permalink: /support.html
 lang: zh-Hant
 ---
 
-# 資產管家 / AssetGuardian Support
+## 資產管家 / AssetGuardian Support
 
 Last updated: 2026-04-14
 
