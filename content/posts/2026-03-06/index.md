@@ -1,51 +1,95 @@
 ---
-title: 資產管家 / AssetGuardian Privacy Policy
-permalink: /privacy.html
+title: 資產管家 / AssetGuardian Support
+permalink: /support.html
 lang: zh-Hant
 ---
 
-# 隱私政策 / Privacy Policy
+# 資產管家 / AssetGuardian Support
 
-生效日 / Effective date: 2026-03-06
+Last updated: 2026-04-14
 
-## 1. 我們處理的資料（中文）
+## 中文
 
-資產管家（AssetGuardian）會處理你在 App 內輸入或產生的投資組合資料，例如股票代碼、交易數量、成交價格、交易日期、投資組合快照與顯示偏好設定。
+### 1. App 簡介
 
-為了顯示市場資訊，App 會向報價與匯率 API 請求資料。這些資料僅用於計算與顯示，不用於廣告追蹤。
+資產管家（AssetGuardian）是一款用於記錄與回顧台股 / 美股交易策略的 App。  
+核心功能包含交易日誌、策略標籤、投資組合總覽、持股整理，以及資產趨勢回顧。
 
-## 2. iCloud / CloudKit 同步（中文）
+### 2. 可協助的內容
 
-你可在設定中開啟或關閉 iCloud 同步。啟用後，投資組合資料會儲存在你的 iCloud 私有資料庫，讓你在自己的 Apple 裝置間同步。關閉後，新資料不再同步（下次啟動生效）。
+如果你在使用過程中遇到問題，可以來信詢問以下事項：
 
-## 3. 資料分享與追蹤（中文）
+- App 使用方式
+- 資料匯出相關問題
+- iCloud 同步問題
+- 錯誤回報或異常行為
+- 隱私相關問題
 
-我們不出售你的個人資料，不提供第三方廣告追蹤。App 不進行跨 App 追蹤。
+### 3. 聯絡方式
 
-## 4. 你的控制權（中文）
+Support email: [chihkang@me.com](mailto:chihkang@me.com)
 
-你可於 App 內刪除交易與持股資料，並可隨時關閉 iCloud 同步。若你匯出 CSV，請自行妥善保管，避免分享給未授權對象。
+來信時建議附上以下資訊，以便更快協助你排查問題：
+
+- App 版本
+- iPhone 機型
+- iOS 版本
+- 問題描述
+- 截圖（如有）
+
+### 4. 資料與隱私說明
+
+- App 不需要註冊帳號即可使用核心功能。
+- 你的資料預設儲存在裝置本機。
+- 你可以選擇在設定中啟用 iCloud 同步；啟用後，相關資料會同步到你自己的 iCloud 私有資料庫。
+- 匯出的 CSV 檔案可能包含敏感的投資組合資訊，請自行妥善保管。
+- 本 App 不提供跨 App 追蹤，也不將資料用於第三方廣告用途。
+
+### 5. 相關連結
+
+- Privacy Policy: <https://chihkang.github.io/roq/privacy.html>
+- Terms of Service: <https://chihkang.github.io/roq/terms.html>
 
 ---
 
-## 1. Data We Process (English)
+## English
 
-AssetGuardian processes portfolio information you enter or generate in the app, such as ticker symbols, trade quantity, trade price, trade dates, portfolio snapshots, and display preferences.
+### 1. About the App
 
-To show market information, the app requests quote and FX data from configured APIs. This data is used only for calculation and display, not for advertising tracking.
+AssetGuardian is an app for recording and reviewing TW/US equity trading strategies.  
+Its core features include a trade journal, strategy tags, portfolio overview, holdings management, and trend review.
 
-## 2. iCloud / CloudKit Sync (English)
+### 2. What You Can Ask For
 
-You can enable or disable iCloud sync in Settings. When enabled, portfolio records are stored in your private iCloud database and synced across your own Apple devices. When disabled, new sync is stopped (effective on next launch).
+You can contact support for help with:
 
-## 3. Sharing and Tracking (English)
+- How to use the app
+- Data export questions
+- iCloud sync issues
+- Bug reports or unexpected behavior
+- Privacy-related inquiries
 
-We do not sell your personal data and do not use third-party advertising tracking. The app does not perform cross-app tracking.
+### 3. Contact
 
-## 4. Your Controls (English)
+Support email: [chihkang@me.com](mailto:chihkang@me.com)
 
-You can delete portfolio records inside the app and turn off iCloud sync at any time. If you export CSV files, please handle them securely because they may contain sensitive financial data.
+To help us investigate your issue more efficiently, please include:
 
-## 5. Contact / 聯絡方式
+- App version
+- Device model
+- iOS version
+- A short description of the issue
+- Screenshots, if available
 
-Email: [chihkang@me.com](mailto:chihkang@me.com)
+### 4. Data and Privacy Notes
+
+- No account is required to use the core app experience.
+- Your data is stored locally on your device by default.
+- You may optionally enable iCloud sync in Settings. When enabled, relevant data is synced to your private iCloud database.
+- Exported CSV files may contain sensitive portfolio information, so please store them carefully.
+- The app does not perform cross-app tracking and does not use your data for third-party advertising purposes.
+
+### 5. Related Links
+
+- Privacy Policy: <https://chihkang.github.io/roq/privacy.html>
+- Terms of Service: <https://chihkang.github.io/roq/terms.html>
