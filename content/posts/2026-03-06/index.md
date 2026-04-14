@@ -47,8 +47,8 @@ Support email: [chihkang@me.com](mailto:chihkang@me.com)
 
 ### 5. 相關連結
 
-- Privacy Policy: <https://chihkang.github.io/roq/privacy.html>
-- Terms of Service: <https://chihkang.github.io/roq/terms.html>
+- Privacy Policy: <https://chihkang.github.io/roq/posts/assetguardian-privacy-policy/>
+- Terms of Service: <https://chihkang.github.io/roq/posts/assetguardian-support/>
 
 ---
 
@@ -91,5 +91,5 @@ To help us investigate your issue more efficiently, please include:
 
 ### 5. Related Links
 
-- Privacy Policy: <https://chihkang.github.io/roq/privacy.html>
-- Terms of Service: <https://chihkang.github.io/roq/terms.html>
+- Privacy Policy: <https://chihkang.github.io/roq/posts/assetguardian-privacy-policy/>
+- Terms of Service: <https://chihkang.github.io/roq/posts/assetguardian-support/>
