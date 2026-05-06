@@ -165,6 +165,36 @@
     .article-content pre code .function { @apply text-accent-600 dark:text-accent-300; }
     .article-content pre code .operator { @apply text-accent-500 dark:text-accent-500; }
     .article-content pre code .token { @apply text-primary dark:text-primary; }
+    .article-content .markdown-alert {
+        --alert-color: var(--color-border-strong);
+        --alert-symbol: "!";
+        @apply my-6 rounded-lg border border-l-4 px-4 py-3 text-primary;
+        border-color: color-mix(in srgb, var(--alert-color) 28%, var(--color-border));
+        border-left-color: var(--alert-color);
+        background-color: color-mix(in srgb, var(--alert-color) 8%, var(--color-card));
+    }
+    .article-content .markdown-alert-title {
+        @apply mt-0 mb-2 flex items-center gap-2 text-base font-semibold;
+        color: var(--alert-color);
+    }
+    .article-content .markdown-alert-title::before {
+        content: var(--alert-symbol);
+        @apply inline-flex items-center justify-center shrink-0 rounded-full font-bold;
+        width: 1.15rem;
+        height: 1.15rem;
+        border: 1.5px solid currentColor;
+        font-size: 0.72rem;
+        line-height: 1;
+    }
+    .article-content .markdown-alert p { @apply my-2; }
+    .article-content .markdown-alert > :last-child { @apply mb-0; }
+    .article-content .markdown-alert-note { --alert-color: #0969da; --alert-symbol: "i"; }
+    .article-content .markdown-alert-tip { --alert-color: #1a7f37; --alert-symbol: "+"; }
+    .article-content .markdown-alert-important { --alert-color: #8250df; --alert-symbol: "*"; }
+    .article-content .markdown-alert-warning { --alert-color: #9a6700; --alert-symbol: "!"; }
+    .article-content .markdown-alert-caution { --alert-color: #cf222e; --alert-symbol: "x"; }
+    .article-content .markdown-alert-warning .markdown-alert-title::before,
+    .article-content .markdown-alert-caution .markdown-alert-title::before { @apply rounded-sm; }
 
     .page-content-area { @apply max-w-5xl mx-auto; }
     .page-content-area .page-content { @apply max-w-none; }
